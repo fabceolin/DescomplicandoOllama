@@ -188,6 +188,14 @@ Você precisará criar um user, mas não se preocupe, é um usuário local para 
 
 ### Instalando o Ollama no Kubernetes
 
+#### Pre requisitos
+
+O comando nvidia-smi deve estar funcionando no host para suporte a placas nvidia. 
+
+O cri-dockerd deve estar instalado para que seja possível usar as GPUs pelo docker 
+
+#### Primeiros passos
+
 Agora que já sabemos como o Ollama funciona, bora entender como fazer com que ele funcione no Kubernetes de uma maneira simples e descomplicada, como é a nossa proposta aqui no Descomplicando.
 
 Eu estou utilizando o Minikube para esse exemplo, caso você queira saber como eu instalei e o quais os comandos que eu utilizei, vou colar aqui para você:
